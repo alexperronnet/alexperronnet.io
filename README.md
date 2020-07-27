@@ -8,7 +8,7 @@ This repo contains the source for [alexperronnet.com](https://alexperronnet.com 
 
 **1. Download the repository**
 ```
-git clone https://gitlab.com/alexperronnet/alexperronnet.com.git
+git clone https://github.com/alexperronnet/alexperronnet.com.git
 ```
 
 **2. Navigate into repository**
