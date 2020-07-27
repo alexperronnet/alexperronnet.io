@@ -6,47 +6,53 @@ import 'typeface-roboto'
 
 export default function Layout({ children }) {
 
-	return (
-    <Styled>
-      <Global 
-        styles={
+  const GlobalCSS = () => {
+    return (
+      <Global
+        styles= {
           css({
             '::selection': {
               backgroundColor: 'text',
               color: 'background'
-						},
-						'span': {
-							color: 'primary'
-						}
+            },
+            'span': {
+              color: 'primary'
+            }
           })
         }
       />
+    )
+  }
+
+  return (
+    <Styled>
+      <GlobalCSS />
       <Metas />
       <Container>
         <main>
           { children }
         </main>
-				<Flex
-					as= 'footer'
-					variant= 'flex.footer'
-				>
-					<Link
-						variant= 'links.primary'
-						href= '/'
-						title= 'alexperronnet.com'
-					>
-						Made by @alexperronnet
-					</Link>
-					<Link
-						variant= 'links.primary'
-						href= 'https://github.com/alexperronnet/alexperronnet.com'
-						target= '_blank'
-						rel= 'noreferrer'
-						title= 'Under MIT'
-					>
-						View source
-					</Link>
-				</Flex>
+        <Flex
+          as= 'footer'
+          variant= 'flex.footer'
+        >
+          <Link
+            variant= 'links.primary'
+            href= '/'
+            title= 'alexperronnet.com'
+          >
+            Made by @alexperronnet
+          </Link>
+          <Link
+            variant= 'links.primary'
+            href= 'https://github.com/alexperronnet/alexperronnet.com'
+            target= '_blank'
+            rel= 'noreferrer'
+            title= 'Under MIT'
+          >
+            View source
+          </Link>
+        </Flex>
       </Container>
     </Styled>
   )
