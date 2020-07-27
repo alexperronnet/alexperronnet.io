@@ -2,7 +2,7 @@
 
 # [alexperronnet.com](https://alexperronnet.com 'Redirect to alexperronnet.com')
 
-This repo contains the source for [alexperronnet.com](https://alexperronnet.com 'Redirect to alexperronnet.com') ↗️
+This repo contains the source for [alexperronnet.com](https://alexperronnet.com 'Redirect to alexperronnet.com')
 
 ## Local development
 
@@ -33,4 +33,4 @@ gatsby build
 
 ---
 
-_**Note**: This requires `Node.js` and `NPM` to be set up locally. See [nodejs.org](https://nodejs.org 'Redirect to nodejs.org') ↗️ for more information._
+_**Note**: This requires `Node.js` and `NPM` to be set up locally. See [nodejs.org](https://nodejs.org 'Redirect to nodejs.org') for more information._
