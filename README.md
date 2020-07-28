@@ -7,27 +7,27 @@ This repo contains the source for [alexperronnet.com](https://alexperronnet.com 
 ## Local development
 
 **1. Download the repository**
-```
+```shell
 git clone https://github.com/alexperronnet/alexperronnet.com.git
 ```
 
 **2. Navigate into repository**
-```
+```shell
 cd alexperronnet.com
 ```
 
 **3. Install the dependencies**
-```
+```shell
 npm install
 ```
 
 **4. Start the development server**
-```
+```shell
 gatsby develop
 ```
 
 **5. Start the build mode**
-```
+```shell
 gatsby build
 ```
 
