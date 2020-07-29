@@ -13,7 +13,8 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Cache-Control = "max-age=3600"
+    Content-Encoding = "gzip"
+    Cache-Control = "public, max-age=360000 "
     Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
