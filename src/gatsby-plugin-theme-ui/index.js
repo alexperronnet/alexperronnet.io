@@ -8,22 +8,17 @@ export default {
     container: '85ch'
   },
   fonts: {
-    body: '"Roboto", system-ui, sans-serif',
-    heading: '"Roboto", system-ui, sans-serif'
+    body: '"Roboto", arial, system-ui, sans-serif',
+    heading: '"Roboto", arial, system-ui, sans-serif'
   },
   fontSizes: [
     12, 14, 16, 18, 20, 24, 32, 48, 64
   ],
-  fontWeights: {
-    body: 400,
-    heading: 700,
-  },
   lineHeights: {
     body: 1.5,
     heading: 1.25,
   },
   heading: {
-    fontWeight: 'heading',
     lineHeight: 'heading',
     h1: {
       fontSize: 7,
@@ -90,7 +85,6 @@ export default {
       fontSize: 3,
       paddingX: 4,
       fontFamily: 'body',
-      fontWeight: 'body',
       lineHeight: 'body'
     }
   }
