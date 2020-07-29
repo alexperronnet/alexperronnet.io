@@ -2,7 +2,6 @@
 import { jsx, Styled, css, Container, Flex, Link } from 'theme-ui'
 import { Global } from '@emotion/core'
 import Metas from './metas'
-import 'typeface-roboto'
 
 export default function Layout({ children }) {
 
