@@ -13,8 +13,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
-    "theme-ui": "^0.3.1",
-    "typeface-roboto": "0.0.75"
+    "theme-ui": "^0.3.1"
   },
   "license": "MIT",
   "scripts": {
