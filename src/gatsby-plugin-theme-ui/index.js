@@ -1,8 +1,8 @@
 export default {
   colors: {
-    text: '#000',
-    background: '#FFF',
-    primary: '#F00'
+    text: '#000000',
+    background: '#FFFFFF',
+    primary: '#0066FF'
   },
   sizes: {
     container: '85ch'
@@ -69,7 +69,7 @@ export default {
       color: 'text',
       border: 'solid 2px',
       padding: 2,
-      boxShadow: '4px 4px #F00',
+      boxShadow: '4px 4px #0066FF',
       borderRadius: '2px'
     }
   },
