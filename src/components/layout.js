@@ -38,13 +38,13 @@ export default function Layout({ children }) {
           <Link
             variant= 'links.primary'
             href= '/'
-            title= 'alexperronnet.com'
+            title= 'alexperronnet.io'
           >
             Made by @alexperronnet
           </Link>
           <Link
             variant= 'links.primary'
-            href= 'https://github.com/alexperronnet/alexperronnet.com'
+            href= 'https://github.com/alexperronnet/alexperronnet.io'
             target= '_blank'
             rel= 'noreferrer'
             title= 'Under MIT'
