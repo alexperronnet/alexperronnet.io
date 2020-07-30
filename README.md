@@ -1,20 +1,20 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e5073c18-184b-4be1-ae29-299b33725c9f/deploy-status)](https://app.netlify.com/sites/alexperronnet/deploys)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](/LICENSE)
 
-# [alexperronnet.com](https://alexperronnet.com)
+# [alexperronnet.io](https://alexperronnet.io)
 
-This repo contains the source for [alexperronnet.com](https://alexperronnet.com)
+This repo contains the source for [alexperronnet.io](https://alexperronnet.io)
 
 ## Local development
 
 **1. Download the repository**
 ```shell
-git clone https://github.com/alexperronnet/alexperronnet.com.git
+git clone https://github.com/alexperronnet/alexperronnet.io.git
 ```
 
 **2. Navigate into repository**
 ```shell
-cd alexperronnet.com
+cd alexperronnet.io
 ```
 
 **3. Install the dependencies**
