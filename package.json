@@ -1,8 +1,8 @@
 {
-  "name": "alexperronnet.com",
+  "name": "alexperronnet.io",
   "private": "true",
   "version": "1.0.0",
-  "author": "Alex Perronnet <alex@alexperronnet.com> (https://alexperronnet.com)",
+  "author": "Alex Perronnet <alex@alexperronnet.io> (https://alexperronnet.io)",
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
@@ -25,9 +25,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexperronnet/alexperronnet.com"
+    "url": "https://github.com/alexperronnet/alexperronnet.io"
   },
   "bugs": {
-    "url": "https://github.com/alexperronnet/alexperronnet.com/issues"
+    "url": "https://github.com/alexperronnet/alexperronnet.io/issues"
   }
 }
