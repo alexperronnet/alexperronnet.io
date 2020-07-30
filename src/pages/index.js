@@ -7,10 +7,10 @@ export default function Index() {
   const email =
     <Link
       variant= 'links.primary'
-      href= 'mailto:alex@alexperronnet.com'
+      href= 'mailto:alex@alexperronnet.io'
       title= 'Send an email'
     >
-      alex@alexperronnet.com
+      alex@alexperronnet.io
     </Link>
 
   const Paragraph = ({ children }) => {
