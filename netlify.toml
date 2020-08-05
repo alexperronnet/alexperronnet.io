@@ -10,6 +10,16 @@
 [[plugins]]
   package = "netlify-plugin-submit-sitemap"
 
+[[redirects]]
+  from = "alexperronnet.com"
+  to = "alexperronnet.io"
+  status = "301"
+
+[[redirects]]
+  from = "www.alexperronnet.com"
+  to = "www.alexperronnet.io"
+  status = "301"
+
 [[headers]]
   for = "/*"
   [headers.values]
