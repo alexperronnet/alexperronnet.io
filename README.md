@@ -1,9 +1,10 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e5073c18-184b-4be1-ae29-299b33725c9f/deploy-status)](https://app.netlify.com/sites/alexperronnet/deploys)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](/LICENSE)
+[![Topic: Gatsby](https://img.shields.io/badge/Topic-Gatsby-purple.svg)](https://www.gatsbyjs.org)
 
 # [alexperronnet.io](https://alexperronnet.io)
 
-This repo contains the source for [alexperronnet.io](https://alexperronnet.io)
+This repo contains the source for [alexperronnet.io](https://alexperronnet.io) ↗️
 
 ## Local development
 
@@ -34,4 +35,4 @@ gatsby build
 
 ---
 
-_**Note**: This requires `Node.js` and `NPM` to be set up locally. See [nodejs.org](https://nodejs.org) for more information._
+_**Note**: This requires `Node.js` and `NPM` to be set up locally. See [nodejs.org](https://nodejs.org) ↗️ for more information._

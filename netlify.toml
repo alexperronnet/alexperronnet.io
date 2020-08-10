@@ -1,20 +1,11 @@
 [build]
-  publish = "public"
+  publish= "public"
 
 [[plugins]]
-  package = "netlify-plugin-gatsby-cache"
+  package= "netlify-plugin-gatsby-cache"
 
 [[plugins]]
-  package = "@netlify/plugin-sitemap"
+  package= "@netlify/plugin-sitemap"
 
 [[plugins]]
-  package = "netlify-plugin-submit-sitemap"
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Cache-Control = "public, max-age=360000 "
-    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
-    X-Content-Type-Options = "nosniff"
-    X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
+  package= "netlify-plugin-submit-sitemap"

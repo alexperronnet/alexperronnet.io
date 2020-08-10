@@ -1,21 +1,23 @@
 {
   "name": "alexperronnet.io",
-  "private": "true",
-  "version": "1.0.0",
-  "author": "Alex Perronnet <alex@alexperronnet.io> (https://alexperronnet.io)",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Alex Perronnet",
+    "email": "alex@alexperronnet.io",
+    "url": "https://alexperronnet.io"
+  },
   "dependencies": {
-    "@emotion/core": "^10.0.28",
-    "@emotion/styled": "^10.0.27",
     "gatsby": "^2.24.11",
-    "gatsby-plugin-emotion": "^4.3.10",
+    "gatsby-plugin-purgecss": "^5.0.0",
     "gatsby-plugin-react-helmet": "^3.3.10",
-    "gatsby-plugin-theme-ui": "^0.3.0",
+    "gatsby-plugin-sass": "^2.3.12",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
-    "theme-ui": "^0.3.1"
+    "tailwindcss": "^1.6.2"
   },
-  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -26,8 +28,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/alexperronnet/alexperronnet.io"
-  },
-  "bugs": {
-    "url": "https://github.com/alexperronnet/alexperronnet.io/issues"
   }
 }
