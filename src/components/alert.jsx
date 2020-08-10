@@ -11,7 +11,7 @@ const Alert = () => {
       </p>
       <a
         className="text-teal-400 hover:underline"
-        href="https://support.eji.org/give/153413/#!/donation/checkout"
+        href="https://eji.org"
         target="_blank"
         rel="noopener noreferrer"
         title="Support the Equal Justice Initiative"
