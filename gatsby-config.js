@@ -18,10 +18,6 @@ module.exports = {
           require("tailwindcss")
         ]
       }
-    },
-    {
-      resolve: "gatsby-plugin-purgecss",
-      options: {tailwind: true}
     }
   ]
 }

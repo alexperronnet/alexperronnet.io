@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
-import Gatsby from "../images/gatsby"
-import Netlify from "../images/netlify"
+import Gatsby from "../components/gatsby"
+import Netlify from "../components/netlify"
 
 const Home = () => {
   return (
@@ -24,18 +24,18 @@ const Home = () => {
         Skills
       </h2>
       <section className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center text-sm">
-        <div className="border-2 border-teal-500 p-3">HTML / CSS</div>
-        <div className="border-2 border-teal-500 p-3">JavaScript</div>
-        <div className="border-2 border-teal-500 p-3">React</div>
-        <div className="border-2 border-teal-500 p-3">Angular</div>
-        <div className="border-2 border-teal-500 p-3">Vue</div>
-        <div className="border-2 border-teal-500 p-3">JAMstack</div>
-        <div className="border-2 border-teal-500 p-3">PHP</div>
-        <div className="border-2 border-teal-500 p-3">Ruby</div>
-        <div className="border-2 border-teal-500 p-3">Rails</div>
-        <div className="border-2 border-teal-500 p-3">NodeJS</div>
-        <div className="border-2 border-teal-500 p-3">Figma</div>
-        <div className="border-2 border-teal-500 p-3">Adobe</div>
+        <div className="border-2 border-teal-500 p-3 shadow-lg">HTML / CSS</div>
+        <div className="border-2 border-teal-500 p-3 shadow-lg">JavaScript</div>
+        <div className="border-2 border-teal-500 p-3 shadow-lg">React</div>
+        <div className="border-2 border-teal-500 p-3 shadow-lg">Angular</div>
+        <div className="border-2 border-teal-500 p-3 shadow-lg">Vue</div>
+        <div className="border-2 border-teal-500 p-3 shadow-lg">JAMstack</div>
+        <div className="border-2 border-teal-500 p-3 shadow-lg">PHP</div>
+        <div className="border-2 border-teal-500 p-3 shadow-lg">Ruby</div>
+        <div className="border-2 border-teal-500 p-3 shadow-lg">Rails</div>
+        <div className="border-2 border-teal-500 p-3 shadow-lg">NodeJS</div>
+        <div className="border-2 border-teal-500 p-3 shadow-lg">Figma</div>
+        <div className="border-2 border-teal-500 p-3 shadow-lg">Adobe</div>
       </section>
       <h2 className="text-2xl font-bold my-12">
         Contact
@@ -84,7 +84,7 @@ const URL = ({children, title, href, target}) => (
 
 const Btn = ({title, href, target}) => (
   <a
-    className="bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 border-b-4 border-teal-700 hover:border-teal-900"
+    className="bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 border-b-4 border-teal-700 hover:border-teal-900 shadow-lg"
     href={href}
     target={target}
     rel="noopener noreferrer"
