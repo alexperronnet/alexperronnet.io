@@ -18,7 +18,7 @@ const Footer = () => {
 
 const URL = ({title, href, target}) => (
   <a
-    className="text-teal-500 hover:underline"
+    className="text-teal-600 hover:underline"
     href={href}
     target={target}
     rel="noopener noreferrer"

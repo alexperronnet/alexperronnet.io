@@ -15,7 +15,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
-    "tailwindcss": "^1.6.2"
+    "tailwindcss": "^1.6.2",
+    "typeface-roboto": "0.0.75"
   },
   "scripts": {
     "build": "gatsby build",

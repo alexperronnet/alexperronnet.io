@@ -3,6 +3,7 @@ import Metas from "./metas"
 import Alert from "./alert"
 import Footer from "./footer"
 import "../styles/index.scss"
+import "typeface-roboto"
 
 const Layout = ({children}) => {
   return (
