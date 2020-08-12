@@ -3,7 +3,7 @@ import React from "react"
 const Footer = () => {
   return (
     <footer
-      className="text-sm flex flex-col sm:flex-row items-center justify-between py-6 border-t-4 border-teal-500"
+      className="text-sm flex flex-col sm:flex-row items-center justify-between py-6 border-t-4 border-blue-500"
       role="contentinfo"
     >
       <p>
@@ -18,7 +18,7 @@ const Footer = () => {
 
 const URL = ({title, href, target}) => (
   <a
-    className="text-teal-600 hover:underline"
+    className="text-blue-600 hover:underline"
     href={href}
     target={target}
     rel="noopener noreferrer"

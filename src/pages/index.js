@@ -9,7 +9,7 @@ const Home = () => {
       <h1 className="text-5xl leading-tight font-bold my-16">
         Alex Perronnet
       </h1>
-      <section className="text-lg border-l-4 border-teal-600 p-5">
+      <section className="text-lg border-l-4 border-blue-600 p-5">
         <p>
           Hello everyone, welcome to my <URL href="/" title="alexperronnet" target="_self">personnal website</URL>.
         </p>
@@ -24,23 +24,23 @@ const Home = () => {
         Skills
       </h2>
       <section className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center text-sm">
-        <div className="border-2 border-teal-600 p-3 shadow-lg">HTML / CSS</div>
-        <div className="border-2 border-teal-600 p-3 shadow-lg">JavaScript</div>
-        <div className="border-2 border-teal-600 p-3 shadow-lg">React</div>
-        <div className="border-2 border-teal-600 p-3 shadow-lg">Angular</div>
-        <div className="border-2 border-teal-600 p-3 shadow-lg">Vue</div>
-        <div className="border-2 border-teal-600 p-3 shadow-lg">JAMstack</div>
-        <div className="border-2 border-teal-600 p-3 shadow-lg">PHP</div>
-        <div className="border-2 border-teal-600 p-3 shadow-lg">Ruby</div>
-        <div className="border-2 border-teal-600 p-3 shadow-lg">Rails</div>
-        <div className="border-2 border-teal-600 p-3 shadow-lg">NodeJS</div>
-        <div className="border-2 border-teal-600 p-3 shadow-lg">Figma</div>
-        <div className="border-2 border-teal-600 p-3 shadow-lg">Adobe</div>
+        <div className="border-2 border-blue-600 p-3 shadow-lg">HTML / CSS</div>
+        <div className="border-2 border-blue-600 p-3 shadow-lg">JavaScript</div>
+        <div className="border-2 border-blue-600 p-3 shadow-lg">React</div>
+        <div className="border-2 border-blue-600 p-3 shadow-lg">Angular</div>
+        <div className="border-2 border-blue-600 p-3 shadow-lg">Vue</div>
+        <div className="border-2 border-blue-600 p-3 shadow-lg">JAMstack</div>
+        <div className="border-2 border-blue-600 p-3 shadow-lg">PHP</div>
+        <div className="border-2 border-blue-600 p-3 shadow-lg">Ruby</div>
+        <div className="border-2 border-blue-600 p-3 shadow-lg">Rails</div>
+        <div className="border-2 border-blue-600 p-3 shadow-lg">NodeJS</div>
+        <div className="border-2 border-blue-600 p-3 shadow-lg">Figma</div>
+        <div className="border-2 border-blue-600 p-3 shadow-lg">Adobe</div>
       </section>
       <h2 className="text-2xl font-bold my-12">
         Contact
       </h2>
-      <p className="text-lg border-l-4 border-teal-600 p-5 mb-12">
+      <p className="text-lg border-l-4 border-blue-600 p-5 mb-12">
         I'm open to lots of new opportunities, freelance or a fulltime position. Feel free to contact me by email at <URL href="mailto:alex@alexperronnet.io" title="Send an email" target="_self">alex@alexperronnet.io</URL>
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center text-sm">
@@ -54,7 +54,7 @@ const Home = () => {
             Build with
           </p>
           <URL href="https://www.gatsbyjs.org" title="Gatsby website" target="_blank">
-            <Gatsby width="175px" className="fill-current text-teal-600 hover:text-teal-800" />
+            <Gatsby width="175px" className="fill-current text-blue-800 hover:text-blue-600" />
           </URL>
         </div>
         <div className="mx-auto mt-10 sm:mt-0">
@@ -62,7 +62,7 @@ const Home = () => {
             Deploys by
           </p>
           <URL href="https://www.netlify.com" title="Netlify website" target="_blank">
-            <Netlify width="175px" className="fill-current text-teal-600 hover:text-teal-800" />
+            <Netlify width="175px" className="fill-current text-blue-800 hover:text-blue-600" />
           </URL>
         </div>
       </section>
@@ -72,7 +72,7 @@ const Home = () => {
 
 const URL = ({children, title, href, target}) => (
   <a
-    className="text-teal-600 hover:underline"
+    className="text-blue-600 hover:underline"
     href={href}
     target={target}
     rel="noopener noreferrer"
@@ -84,7 +84,7 @@ const URL = ({children, title, href, target}) => (
 
 const Btn = ({title, href, target}) => (
   <a
-    className="bg-teal-600 hover:bg-teal-700 text-white font-bold py-2 px-4 border-b-4 border-teal-800 hover:border-teal-900 shadow-lg"
+    className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 border-b-4 border-blue-800 hover:border-blue-900 shadow-lg"
     href={href}
     target={target}
     rel="noopener noreferrer"

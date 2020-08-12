@@ -4,8 +4,8 @@
 html,
 body {
   @apply h-screen;
-  @apply bg-white;
-  @apply text-teal-900;
+  @apply bg-gray-900;
+  @apply text-white;
   @apply font-medium;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 ::selection {
-  @apply bg-teal-900;
+  @apply bg-blue-500;
   @apply text-white;
 }
 
