@@ -1,5 +1,6 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 html,
 body {
@@ -15,8 +16,16 @@ body {
 }
 
 ::selection {
-  @apply bg-blue-500;
-  @apply text-white;
+  @apply bg-transparent;
+  @apply text-blue-400;
 }
 
-@import "tailwindcss/utilities";
+::-webkit-scrollbar {
+  @apply w-1;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply rounded-full;
+  @apply bg-white;
+  @apply bg-opacity-25;
+}
