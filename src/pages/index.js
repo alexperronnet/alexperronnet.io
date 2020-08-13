@@ -11,10 +11,10 @@ const Home = () => {
       </h1>
       <section className="text-lg border-l-4 border-blue-600 p-5">
         <p>
-          Hello everyone, welcome to my <URL href="/" title="alexperronnet" target="_self">personnal website</URL>.
+          Hello everyone, welcome to my <URL href="/" title="alexperronnet" target="_self">personnal website</URL>
         </p>
         <p className="my-8">
-          I'm Alex Perronnet, a french freelance <b>developer</b> and <b>designer</b>. I'm also an <b>open-source contributor</b> and a <b>content creator</b>.
+          I'm Alex Perronnet, a french freelance <b>developer</b> and <b>designer</b>. I'm also an <b>open-source contributor</b> and a <b>content creator</b>
         </p>
         <p>
           <b>Follw me everywhere:</b> @alexperronnet
@@ -24,18 +24,18 @@ const Home = () => {
         Skills
       </h2>
       <section className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center text-sm">
-        <div className="border-2 border-blue-600 p-3 shadow-lg">HTML / CSS</div>
-        <div className="border-2 border-blue-600 p-3 shadow-lg">JavaScript</div>
-        <div className="border-2 border-blue-600 p-3 shadow-lg">React</div>
-        <div className="border-2 border-blue-600 p-3 shadow-lg">Angular</div>
-        <div className="border-2 border-blue-600 p-3 shadow-lg">Vue</div>
-        <div className="border-2 border-blue-600 p-3 shadow-lg">JAMstack</div>
-        <div className="border-2 border-blue-600 p-3 shadow-lg">PHP</div>
-        <div className="border-2 border-blue-600 p-3 shadow-lg">Ruby</div>
-        <div className="border-2 border-blue-600 p-3 shadow-lg">Rails</div>
-        <div className="border-2 border-blue-600 p-3 shadow-lg">NodeJS</div>
-        <div className="border-2 border-blue-600 p-3 shadow-lg">Figma</div>
-        <div className="border-2 border-blue-600 p-3 shadow-lg">Adobe</div>
+        <Skills>HTML / CSS</Skills>
+        <Skills>JavaScript</Skills>
+        <Skills>React</Skills>
+        <Skills>Angular</Skills>
+        <Skills>Vue</Skills>
+        <Skills>JAMstack</Skills>
+        <Skills>PHP</Skills>
+        <Skills>Ruby</Skills>
+        <Skills>Rails</Skills>
+        <Skills>NodeJS</Skills>
+        <Skills>Figma</Skills>
+        <Skills>Adobe</Skills>
       </section>
       <h2 className="text-2xl font-bold my-12">
         Contact
@@ -70,6 +70,10 @@ const Home = () => {
   )
 }
 
+const Skills = ({children}) => (
+  <div className="border-2 border-blue-600 p-3 hover:bg-blue-900">{children}</div>
+)
+
 const URL = ({children, title, href, target}) => (
   <a
     className="text-blue-600 hover:underline"
@@ -84,7 +88,7 @@ const URL = ({children, title, href, target}) => (
 
 const Btn = ({title, href, target}) => (
   <a
-    className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 border-b-4 border-blue-800 hover:border-blue-900 shadow-lg"
+    className="bg-blue-600 hover:bg-blue-800 text-white font-bold py-2 px-4"
     href={href}
     target={target}
     rel="noopener noreferrer"
