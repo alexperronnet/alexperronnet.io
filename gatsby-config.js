@@ -32,19 +32,12 @@ module.exports = {
       }
     },
     {
-      resolve: "gatsby-plugin-postcss",
+      resolve: "gatsby-plugin-sass",
       options: {
         postCssPlugins: [
           require("tailwindcss"),
           require("autoprefixer")
         ]
-      }
-    },
-    {
-      resolve: "gatsby-plugin-purgecss",
-      options: {
-        tailwind : true,
-        purgeOnly: ["./src/styles/index.css"]
       }
     },
     {

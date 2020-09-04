@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 html,
 body {
@@ -16,6 +16,11 @@ body {
   @apply h-full;
 }
 
+::selection {
+  @apply bg-blue-700;
+  @apply text-white;
+}
+
 h1,
 h2,
 h3 {
@@ -25,42 +30,32 @@ h3 {
 
 h1 {
   @apply text-4xl;
+  &::after {
+    content: " _";
+    animation: blink ease 1s infinite;
+  }
+  @screen sm {
+    &::before {
+      content: "$ cd / ";
+      @apply text-blue-500;
+    }
+  }
 }
 
 h2 {
   @apply text-2xl;
+  @screen sm {
+    &::before {
+      content: "$ cd / ";
+      @apply text-blue-500;
+    }
+  }
 }
 
 h3 {
   @apply uppercase;
   @apply text-sm;
   @apply text-gray-500;
-}
-
-::selection {
-  @apply bg-blue-700;
-  @apply text-white;
-}
-
-@screen sm {
-  h1::before {
-    content: "$ cd / ";
-    @apply text-blue-500;
-  }
-}
-
-@screen sm {
-  h1::after {
-    content: " _";
-    animation: blink ease 1s infinite;
-  }
-}
-
-@screen sm {
-  h2::before {
-    content: "$ cd / ";
-    @apply text-blue-500;
-  }
 }
 
 @keyframes blink {
