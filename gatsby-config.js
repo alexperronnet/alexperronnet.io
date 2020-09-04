@@ -48,12 +48,6 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-zopfli",
-      options: {
-        extensions: ["css", "html", "js"]
-      }
-    },
-    {
       resolve: "gatsby-plugin-canonical-urls",
       options: {
         siteUrl: website.siteUrl
