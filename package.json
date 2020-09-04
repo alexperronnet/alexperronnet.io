@@ -17,6 +17,7 @@
     "gatsby-plugin-robots-txt"      : "^1.5.1",
     "gatsby-plugin-sass"            : "^2.3.12",
     "gatsby-plugin-sitemap"         : "^2.4.12",
+    "gatsby-plugin-zopfli"          : "^2.0.0",
     "node-sass"                     : "^4.14.1",
     "prop-types"                    : "^15.7.2",
     "react"                         : "^16.13.1",
