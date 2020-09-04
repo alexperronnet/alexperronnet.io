@@ -2,10 +2,12 @@ const defaultTheme = require("tailwindcss/defaultTheme")
 
 module.exports = {
   future: {
-    removeDeprecatedGapUtilities: true
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault        : true
   },
   purge: {
-    enable: false
+    enable : true,
+    content: ["./src/**/*.js"]
   },
   theme: {
     fontFamily: {
