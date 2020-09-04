@@ -5,10 +5,10 @@ module.exports = {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault        : true
   },
-  purge: {
-    enable : true,
-    content: ["./src/**/*.js", "./src/**/*.jsx"]
-  },
+  purge: [
+    "./src/**/*.js",
+    "./src/**/*.jsx"
+  ],
   theme: {
     fontFamily: {
       sans: ["Roboto", ...defaultTheme.fontFamily.sans]
