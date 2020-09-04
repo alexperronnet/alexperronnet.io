@@ -34,7 +34,7 @@ h2 {
 h3 {
   @apply uppercase;
   @apply text-sm;
-  @apply text-gray-500
+  @apply text-gray-500;
 }
 
 ::selection {
