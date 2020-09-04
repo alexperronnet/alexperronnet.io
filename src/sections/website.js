@@ -14,32 +14,6 @@ const Website = () => {
       <h2 className="mb-16">
         This Website
       </h2>
-      <div className="flex gap-4 overflow-x-auto mb-16">
-        <img
-          alt       = "Netlify Status"
-          src       = "https://img.shields.io/netlify/e5073c18-184b-4be1-ae29-299b33725c9f?color=brghtgreen&style=flat-square"
-        />
-        <img
-          alt       = "Last Commit"
-          src       = "https://img.shields.io/github/last-commit/alexperronnet/alexperronnet.io?color=brightgreen&style=flat-square"
-        />
-        <img
-          alt       = "Dependencies"
-          src       = "https://img.shields.io/david/alexperronnet/alexperronnet.io?color=brightgreen&style=flat-square"
-        />
-        <img
-          alt       = "Dev Dependencies"
-          src       = "https://img.shields.io/david/dev/alexperronnet/alexperronnet.io?color=brightgreen&style=flat-square"
-        />
-        <img
-          alt       = "Code Size"
-          src       = "https://img.shields.io/github/languages/code-size/alexperronnet/alexperronnet.io?color=brightgreen&style=flat-square"
-        />
-        <img
-          alt       = "License"
-          src       = "https://img.shields.io/github/license/alexperronnet/alexperronnet.io?color=brightgreen&style=flat-square"
-        />
-      </div>
       <Content>
         This website is open source and under MIT license
       </Content>

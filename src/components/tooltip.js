@@ -7,7 +7,8 @@ const CustomTooltip = withStyles(() => ({
   tooltip: {
     backgroundColor: defaultConfig.theme.colors.teal[200],
     color          : defaultConfig.theme.colors.teal[700],
-    borderRadius   : defaultConfig.theme.borderRadius.none
+    borderRadius   : defaultConfig.theme.borderRadius.none,
+    fontSize       : defaultConfig.theme.fontSize.xs
   },
   arrow: {
     color: defaultConfig.theme.colors.teal[200]

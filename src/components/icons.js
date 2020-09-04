@@ -16,8 +16,7 @@ import {
   SiTwitter,
   SiBehance,
   SiDribbble,
-  SiLinkedin,
-  SiFacebook
+  SiLinkedin
 } from "react-icons/si"
 
 export {
@@ -32,6 +31,5 @@ export {
   SiTwitter,
   SiBehance,
   SiDribbble,
-  SiLinkedin,
-  SiFacebook
+  SiLinkedin
 }

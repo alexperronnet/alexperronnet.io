@@ -5,8 +5,7 @@ import {
   SiTwitter,
   SiBehance,
   SiDribbble,
-  SiLinkedin,
-  SiFacebook
+  SiLinkedin
 } from "../components/icons"
 
 const social = [
@@ -44,11 +43,6 @@ const social = [
     title: "Linkedin",
     link : "https://linkedin.com/in/alexperronnet",
     icon : SiLinkedin
-  },
-  {
-    title: "Facebook",
-    link : "https://facebook.com/alexandre.perronnet.50",
-    icon : SiFacebook
   }
 ]
 

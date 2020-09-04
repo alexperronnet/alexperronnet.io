@@ -29,7 +29,7 @@ const About = () => {
             value       = "alexperronnet"
           />
         </div>
-        <div className="flex overflow-auto gap-4 mt-5">
+        <div className="flex overflow-auto mt-5">
           {social.map((x) => {
             const Icon = x.icon
 
@@ -41,7 +41,7 @@ const About = () => {
                 arrow
               >
                 <a
-                  className = "p-2 bg-blue-500 opacity-50 hover:opacity-100 rounded-sm"
+                  className = "p-2 bg-blue-500 opacity-50 hover:opacity-100 rounded-sm mr-4"
                   href      = {x.link}
                   target    = "_blank"
                   rel       = "noopener noreferrer"

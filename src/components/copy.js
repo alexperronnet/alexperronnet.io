@@ -19,7 +19,7 @@ const Copy = ({ value, before, placeholder }) => {
   const [open, setOpen] = React.useState(false)
 
   return (
-    <div className="flex gap-3 items-center">
+    <div className="flex items-center">
       <CustomTooltip
         title     = "Copied to clipboard"
         placement = "top"
@@ -27,7 +27,7 @@ const Copy = ({ value, before, placeholder }) => {
         arrow
       >
         <button
-          className = "focus:outline-none bg-gray-200 p-2"
+          className = "focus:outline-none bg-gray-200 p-2 mr-4"
           value     = {value}
           onClick   = {() => {
             handleClick(value)

@@ -7,7 +7,7 @@ module.exports = {
   },
   purge: {
     enable : true,
-    content: ["./src/**/*.js"]
+    content: ["./src/**/*.js", "./src/**/*.jsx"]
   },
   theme: {
     fontFamily: {
