@@ -3,10 +3,12 @@ import CustomTooltip from "./tooltip"
 import { FiArrowUpCircle } from "./icons"
 
 const ToTop = () => {
-  window.scrollTo({
-    behavior: "smooth",
-    top: 0
-  })
+  function scrollMe() {
+    window.scrollTo({
+      behavior: "smooth",
+      top: 0
+    })
+  }
 
   return (
     <div className="text-white text-xs mt-10">
@@ -17,7 +19,7 @@ const ToTop = () => {
       >
         <button
           className = "p-2 bg-blue-500 hover:shadow-md rounded-sm flex items-center focus:outline-none"
-          onClick   = {ToTop}
+          onClick   = {scrollMe}
         >
           <FiArrowUpCircle
             className = "mr-2"
