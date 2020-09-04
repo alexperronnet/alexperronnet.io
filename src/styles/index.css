@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply m-0;
+  @apply p-0;
+  @apply h-screen;
+  @apply bg-white;
+  @apply text-black;
+}
+
+#___gatsby,
+#gatsby-focus-wrapper {
+  @apply h-full;
+}
+
+h1,
+h2,
+h3 {
+  @apply font-bold;
+  @apply leading-none;
+}
+
+h1 {
+  @apply text-4xl;
+}
+
+h2 {
+  @apply text-2xl;
+}
+
+h3 {
+  @apply uppercase;
+  @apply text-sm;
+  @apply text-gray-500
+}
+
+::selection {
+  @apply bg-blue-700;
+  @apply text-white;
+}
+
+@screen sm {
+  h1::before {
+    content: "$ cd / ";
+    @apply text-blue-500;
+  }
+}
+
+@screen sm {
+  h1::after {
+    content: " _";
+    animation: blink ease 1s infinite;
+  }
+}
+
+@screen sm {
+  h2::before {
+    content: "$ cd / ";
+    @apply text-blue-500;
+  }
+}
+
+@keyframes blink {
+  0%, 100% {
+    @apply opacity-0;
+  } 50% {
+    @apply opacity-100;
+  }
+}

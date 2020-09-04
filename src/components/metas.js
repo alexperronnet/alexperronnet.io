@@ -1,6 +1,6 @@
 import React from "react"
-import Helmet from "react-helmet"
-import {useStaticQuery, graphql} from "gatsby"
+import { Helmet } from "react-helmet"
+import { useStaticQuery, graphql } from "gatsby"
 
 const Metas = () => {
   const data = useStaticQuery(graphql`
@@ -9,21 +9,50 @@ const Metas = () => {
         siteMetadata {
           title
           description
-          siteUrl
+          author
         }
       }
     }
   `)
 
-  const {title, description, siteUrl} = data.site.siteMetadata
+  const { title, description, author } = data.site.siteMetadata
 
   return (
-    <Helmet>
-      <html lang="en" />
-      <title>{title}</title>
-      <meta name="description" content={description} />
-      <link rel="canonical" href={siteUrl} />
-    </Helmet>
+    <Helmet
+      htmlAttributes = {{lang: "en"}}
+      defer          = {false}
+      title          = {title}
+      meta           = {[
+        {
+          name   : "description",
+          content: description,
+        },
+        {
+          property: "og:title",
+          content : title,
+        },
+        {
+          property: "og:description",
+          content : description,
+        },
+        {
+          property: "og:type",
+          content : "website",
+        },
+        {
+          name   : "twitter:creator",
+          content: author,
+        },
+        {
+          name   : "twitter:title",
+          content: title,
+        },
+        {
+          name   : "twitter:description",
+          content: description,
+        }
+      ]}
+    />
   )
 }
 

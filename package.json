@@ -1,32 +1,45 @@
 {
-  "name": "alexperronnet.io",
-  "version": "0.0.0",
-  "license": "MIT",
-  "author": {
-    "name": "Alex Perronnet",
-    "email": "alex@alexperronnet.io",
-    "url": "https://alexperronnet.io"
-  },
+  "name"        : "alexperronnet.io",
+  "description" : "Alex Perronnet Personal Website",
+  "version"     : "0.0.0",
+  "license"     : "MIT",
+  "author"      : "Alex Perronnet <alex@alexperronnet.io>",
+  "homepage"    : "https://alexperronnet.io",
   "dependencies": {
-    "gatsby": "^2.24.11",
-    "gatsby-plugin-react-helmet": "^3.3.10",
-    "gatsby-plugin-sass": "^2.3.12",
-    "node-sass": "^4.14.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-helmet": "^6.1.0",
-    "tailwindcss": "^1.6.2",
-    "typeface-roboto": "0.0.75"
+    "@material-ui/core"             : "^4.11.0",
+    "gatsby"                        : "^2.24.53",
+    "gatsby-plugin-canonical-urls"  : "^2.3.10",
+    "gatsby-plugin-google-analytics": "^2.3.13",
+    "gatsby-plugin-manifest"        : "^2.4.27",
+    "gatsby-plugin-offline"         : "^3.2.26",
+    "gatsby-plugin-postcss"         : "^2.3.11",
+    "gatsby-plugin-purgecss"        : "^5.0.0",
+    "gatsby-plugin-react-helmet"    : "^3.3.10",
+    "gatsby-plugin-robots-txt"      : "^1.5.1",
+    "gatsby-plugin-sitemap"         : "^2.4.12",
+    "prop-types"                    : "^15.7.2",
+    "react"                         : "^16.13.1",
+    "react-dom"                     : "^16.13.1",
+    "react-helmet"                  : "^6.1.0",
+    "react-icons"                   : "^3.11.0",
+    "typeface-roboto"               : "0.0.75"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "prettier"    : "^2.1.1",
+    "tailwindcss" : "^1.7.6"
   },
   "scripts": {
-    "build": "gatsby build",
     "develop": "gatsby develop",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "build"  : "gatsby build",
+    "clean"  : "gatsby clean",
+    "start"  : "npm run develop"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexperronnet/alexperronnet.io"
+    "url" : "https://github.com/alexperronnet/alexperronnet.io"
+  },
+  "bugs": {
+    "url": "https://github.com/alexperronnet/alexperronnet.io/issues"
   }
 }

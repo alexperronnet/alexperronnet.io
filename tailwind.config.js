@@ -1,11 +1,24 @@
+const defaultTheme = require("tailwindcss/defaultTheme")
+
 module.exports = {
+  future: {
+    removeDeprecatedGapUtilities: true
+  },
   purge: {
-    enable: true,
-    content: ["./src/**/*.js", "./src/**/*.jsx"],
+    enable: false
   },
   theme: {
     fontFamily: {
-      sans: ["Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol"]
+      sans: ["Roboto", ...defaultTheme.fontFamily.sans]
+    },
+    screens: {
+      "sm": "640px",
+      "md": "768px",
+      "lg": "1024px"
+    },
+    container: {
+      center : true,
+      padding: "2rem"
     }
   }
 }
