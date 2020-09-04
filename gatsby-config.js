@@ -1,3 +1,4 @@
+const tailwindConfig = require("./tailwind.config")
 const website = {
   sitePath            : "/",
   siteName            : "Alex Perronnet",
@@ -35,10 +36,16 @@ module.exports = {
       resolve: "gatsby-plugin-sass",
       options: {
         postCssPlugins: [
-          require("tailwindcss"),
+          require("tailwindcss")(tailwindConfig),
           require("autoprefixer")
         ]
       }
+    },
+    {
+      resolve: "gatsby-plugin-purgecss",
+      options: {
+        tailwind: true
+      },
     },
     {
       resolve: "gatsby-plugin-canonical-urls",
