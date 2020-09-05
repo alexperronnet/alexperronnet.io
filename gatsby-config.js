@@ -1,5 +1,5 @@
 const tailwindConfig = require("./tailwind.config")
-const website = {
+const website        = {
   sitePath            : "/",
   siteName            : "Alex Perronnet",
   siteAuthor          : "@alexperronnet",
@@ -27,9 +27,12 @@ module.exports = {
         start_url         : website.sitePath,
         background_color  : website.siteBackgroundColor,
         theme_color       : website.siteThemeColor,
-        icon              : website.siteIcon,
         display           : "standalone",
-        cache_busting_mode: "none"
+        cache_busting_mode: "none",
+        icon              : website.siteIcon,
+        icon_options      : {
+          purpose: "maskable"
+        }
       }
     },
     {
