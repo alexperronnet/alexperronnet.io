@@ -42,7 +42,7 @@ const Website = () => {
           >
             <Gatsby
               width     = "175px"
-              className = "fill-current text-blue-500 opacity-50 hover:opacity-100"
+              className = "fill-current text-red-700 opacity-50 hover:opacity-100"
             />
           </a>
         </div>
@@ -57,7 +57,7 @@ const Website = () => {
           >
             <Netlify
               width     = "175px"
-              className = "fill-current text-blue-500 opacity-50 hover:opacity-100"
+              className = "fill-current text-red-700 opacity-50 hover:opacity-100"
             />
           </a>
         </div>

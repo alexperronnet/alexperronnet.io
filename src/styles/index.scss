@@ -17,8 +17,8 @@ body {
 }
 
 ::selection {
-  @apply bg-teal-200;
-  @apply text-teal-700;
+  @apply bg-red-500;
+  @apply text-white;
 }
 
 h1,
@@ -37,7 +37,7 @@ h1 {
   @screen sm {
     &::before {
       content: "$ cd / ";
-      @apply text-blue-500;
+      @apply text-red-500;
     }
   }
 }
@@ -47,7 +47,7 @@ h2 {
   @screen sm {
     &::before {
       content: "$ cd / ";
-      @apply text-blue-500;
+      @apply text-red-500;
     }
   }
 }
@@ -55,7 +55,7 @@ h2 {
 h3 {
   @apply uppercase;
   @apply text-sm;
-  @apply text-gray-500;
+  @apply text-red-700;
 }
 
 @keyframes blink {

@@ -41,7 +41,7 @@ const About = () => {
                 arrow
               >
                 <a
-                  className = "p-2 bg-blue-500 opacity-50 hover:opacity-100 rounded-sm mr-4"
+                  className = "p-2 bg-red-700 opacity-50 hover:opacity-100 rounded-sm mr-4"
                   href      = {x.link}
                   target    = "_blank"
                   rel       = "noopener noreferrer"

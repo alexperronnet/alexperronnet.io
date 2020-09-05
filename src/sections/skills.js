@@ -20,7 +20,7 @@ const Skills = () => {
               placement = "top"
               arrow
             >
-              <div className="p-3 border-2 border-black hover:bg-blue-200 hover:border-blue-700 hover:text-blue-800">
+              <div className="p-3 border-2 border-black hover:bg-red-200 hover:border-red-700 hover:text-red-700">
                 {x.title}
               </div>
             </CustomTooltip>

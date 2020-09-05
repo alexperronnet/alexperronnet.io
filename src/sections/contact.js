@@ -35,7 +35,7 @@ const Email = () => (
     arrow
   >
     <a
-      className = "text-blue-500 hover:text-blue-700"
+      className = "text-red-700 hover:underline"
       href      = "mailto:alex@alexperronnet.io"
     >
       email

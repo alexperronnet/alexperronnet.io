@@ -18,7 +18,7 @@ const ToTop = () => {
         arrow
       >
         <button
-          className = "p-2 bg-blue-500 hover:shadow-md rounded-sm flex items-center focus:outline-none"
+          className = "p-2 bg-red-700 opacity-50 hover:opacity-100 rounded-sm flex items-center focus:outline-none"
           onClick   = {scrollMe}
         >
           <FiArrowUpCircle

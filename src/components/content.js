@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 
 const Content = ({ children }) => {
   return (
-    <div className="border-l-4 border-blue-500 pl-5">
+    <div className="border-l-4 border-red-500 pl-5">
       {children}
     </div>
   )

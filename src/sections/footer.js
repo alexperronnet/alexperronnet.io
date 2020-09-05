@@ -17,7 +17,7 @@ const Footer = () => {
             arrow
           >
             <a
-              className = "text-gray-600 hover:text-black flex items-center"
+              className = "text-gray-700 hover:text-black flex items-center"
               href      = "/"
             >
               <FiCode 
@@ -35,7 +35,7 @@ const Footer = () => {
             arrow
           >
             <a 
-              className = "text-gray-600 hover:text-black flex items-center"
+              className = "text-gray-700 hover:text-black flex items-center"
               href      = "https://github.com/alexperronnet/alexperronnet.io"
               target    = "_blank"
               rel       = "noopener noreferrer"

@@ -26,7 +26,7 @@ class Clock extends React.Component {
 
   render() {
     return (
-      <div className="text-gray-500 mt-10 sm:flex sm:flex-row sm:items-center">
+      <div className="mt-10 sm:flex sm:flex-row sm:items-center">
         <FiClock
           className = "mr-4 hidden sm:block"
           size      = {24}

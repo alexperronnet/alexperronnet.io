@@ -34,13 +34,13 @@ const Copy = ({ value, before, placeholder }) => {
           }}
         >
           <MdContentCopy
-            className = "text-gray-600"
+            className = "text-gray-700"
             size      = "20"
           />
         </button>
       </CustomTooltip>
       <div className="flex relative p-2 whitespace-pre overflow-x-auto bg-gray-200">
-        <div className="select-all inline-block text-sm text-gray-600">
+        <div className="select-all inline-block text-sm text-gray-700">
           <span className="select-none mr-1 font-bold">
             {before}
           </span>
