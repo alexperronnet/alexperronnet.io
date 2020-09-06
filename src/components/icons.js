@@ -6,7 +6,8 @@ import {
 } from "react-icons/fi"
 
 import {
-  MdContentCopy
+  MdContentCopy,
+  MdCheck
 } from "react-icons/md"
 
 import {
@@ -25,6 +26,7 @@ export {
   FiGitBranch,
   FiArrowUpCircle,
   MdContentCopy,
+  MdCheck,
   SiGithub,
   SiGitlab,
   SiInstagram,
