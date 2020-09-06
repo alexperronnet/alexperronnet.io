@@ -1,6 +1,6 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import PropTypes from "prop-types"
-import { MdContentCopy } from "./icons"
+import { MdContentCopy, MdCheck } from "./icons"
 import CustomTooltip from "./tooltip"
 
 const Copy = ({ value, before, placeholder }) => {
@@ -12,18 +12,23 @@ const Copy = ({ value, before, placeholder }) => {
     document.execCommand("copy")
     document.body.removeChild(dummy)
 
-    setOpen(true)
-    setTimeout(() => setOpen(false), 1000)
   }
 
-  const [open, setOpen] = React.useState(false)
+  const [isCopied, setCopied] = useState(false);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setCopied(false);
+    }, 2000);
+
+    return () => clearTimeout(timeout);
+  }, [isCopied]);
 
   return (
     <div className="flex items-center">
       <CustomTooltip
-        title     = "Copied to clipboard"
+        title     = "Copy to clipboard"
         placement = "top"
-        open      = {open}
         arrow
       >
         <button
@@ -31,12 +36,10 @@ const Copy = ({ value, before, placeholder }) => {
           value     = {value}
           onClick   = {() => {
             handleClick(value)
+            setCopied(true)
           }}
         >
-          <MdContentCopy
-            className = "text-gray-700"
-            size      = "20"
-          />
+          {isCopied ? <CheckIcon /> : <CopyIcon />}
         </button>
       </CustomTooltip>
       <div className="flex relative p-2 whitespace-pre overflow-x-auto bg-gray-200">
@@ -51,9 +54,23 @@ const Copy = ({ value, before, placeholder }) => {
   )
 }
 
+const CopyIcon = () => (
+  <MdContentCopy
+    className = "text-gray-700"
+    size      = {20}
+  />
+)
+
+const CheckIcon = () => (
+  <MdCheck
+    className = "text-green-500"
+    size      = {20}
+  />
+)
+
 Copy.propTypes = {
-  value: PropTypes.node.isRequired,
-  before: PropTypes.node.isRequired,
+  value      : PropTypes.node.isRequired,
+  before     : PropTypes.node.isRequired,
   placeholder: PropTypes.node.isRequired
 }
 
