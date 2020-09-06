@@ -32,14 +32,14 @@ const Website = () => {
       <ToTop />
       <div className="flex flex-col sm:flex-row text-center mt-10 pt-16 border-t-2">
         <div className="mx-auto">
-          <p className="mb-5">
-            Build with
-          </p>
           <a
             href   = "https://www.gatsbyjs.org"
             target = "_blank"
             rel    = "noreferrer"
           >
+            <p className="mb-5">
+              Build with
+            </p>
             <Gatsby
               width     = "175px"
               className = "fill-current text-red-700 opacity-50 hover:opacity-100"
@@ -47,14 +47,14 @@ const Website = () => {
           </a>
         </div>
         <div className="mx-auto mt-10 sm:mt-0">
-          <p className="mb-5">
-            Deploys by
-          </p>
           <a
             href   = "https://www.netlify.com"
             target = "_blank"
             rel    = "noreferrer"
           >
+            <p className="mb-5">
+              Deploys by
+            </p>
             <Netlify
               width     = "175px"
               className = "fill-current text-red-700 opacity-50 hover:opacity-100"
