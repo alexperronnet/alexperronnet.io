@@ -46,7 +46,7 @@ const skills = [
   {
     title: "Photoshop",
     topic: "Design"
-  },
+  }
 ]
 
 export default skills

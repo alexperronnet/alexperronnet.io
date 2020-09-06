@@ -44,7 +44,7 @@ const Footer = () => {
                 className = "mr-2"
                 size      = {15}
               />
-              Open-sourced on Github
+              View the source on Github
             </a>
           </CustomTooltip>
         </div>

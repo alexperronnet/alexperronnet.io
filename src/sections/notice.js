@@ -18,7 +18,7 @@ const Notice = () => {
           target = "_blank"
           rel    = "noopener noreferrer"
         >
-          Black Lives Matter
+          #BlackLivesMatter
         </a>
       </CustomTooltip>
     </section>

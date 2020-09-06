@@ -13,7 +13,7 @@ const contact = () => {
         Contact
       </h2>
       <Content>
-        I am open to lots of new opportunities, freelance or a fulltime position. You can contact me by trying to send a homing pigeon but honestly the best is still to send me an <Email />
+        I am open to lots of new opportunities, freelance or a fulltime position. You can contact me by trying to send a homing pigeon but honestly the best is still to send me an <Email />.
       </Content>
       <Content>
         <div className="mt-16">

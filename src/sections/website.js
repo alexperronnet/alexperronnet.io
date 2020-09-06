@@ -4,6 +4,7 @@ import Netlify from "../images/netlify"
 import Copy from "../components/copy"
 import ToTop from "../components/to-top"
 import Content from "../components/content"
+import lighthouse from "../data/lighthouse"
 
 const Website = () => {
   return (
@@ -15,7 +16,7 @@ const Website = () => {
         This Website
       </h2>
       <Content>
-        This website is open source and under MIT license
+        This website is fully open source and under MIT license. It was built with Gatsby and deployed on Netlify.
       </Content>
       <Content>
         <div className="mt-16">
@@ -27,6 +28,30 @@ const Website = () => {
             placeholder = "git clone https://github.com/alexperronnet/alexperronnet.io.git"
             value       = "git clone https://github.com/alexperronnet/alexperronnet.io.git"
           />
+        </div>
+      </Content>
+      <Content>
+        <div className="mt-16">
+          <h3 className="mb-5">
+            Lighthouse <span className="lowercase">(for desktop device)</span>
+          </h3>
+          <div className="flex whitespace-pre overflow-x-auto mt-5">
+            {lighthouse.map((x) => {
+              return (
+                <div
+                  key       = {x.title}
+                  className = "p-2 bg-green-200 text-green-800 flex mr-4 text-xs"
+                >
+                  <div className="font-bold mr-2">
+                    {x.title}
+                  </div>
+                  <div>
+                    {x.score}
+                  </div>
+                </div>
+              )
+            })}
+          </div>
         </div>
       </Content>
       <ToTop />
