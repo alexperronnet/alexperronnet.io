@@ -15,7 +15,7 @@ const About = () => {
       </h1>
       <Content>
         <p>
-          Hello everyone, welcome to my personal website, I am Alex Perronnet, a french freelance <b>Frontend developer</b> and <b>designer</b>. I am also an <b>open-source contributor</b> and a <b>content creator</b>.
+          Hello everyone, welcome to my personal website, I am Alex Perronnet, a french freelance <b>frontend developer</b> and <b>designer</b> junior. I am also an <b>open-source contributor</b> and a <b>content creator</b>.
         </p>
         <p className="mt-10">
           <b>Fun fact:</b> one day my girlfriend left me, so i packed my bags and took the first plane to do over 14,000 miles but now i don't have enough money to go home LOL.
