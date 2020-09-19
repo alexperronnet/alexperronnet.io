@@ -29,6 +29,9 @@ const Website = () => {
             target = "_blank"
             rel    = "noreferrer"
           >
+            <p className="mb-5">
+              Built with
+            </p>
             <Gatsby
               width     = "175px"
               className = "fill-current text-pink-background hover:text-pink"
@@ -41,6 +44,9 @@ const Website = () => {
             target = "_blank"
             rel    = "noreferrer"
           >
+            <p className="mb-5">
+              Deployed on
+            </p>
             <Netlify
               width     = "175px"
               className = "fill-current text-pink-background hover:text-pink"

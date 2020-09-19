@@ -63,7 +63,7 @@ const CopyIcon = () => (
 
 const CheckIcon = () => (
   <MdCheck
-    className = "text-blue"
+    className = "text-pink"
     size      = {20}
   />
 )

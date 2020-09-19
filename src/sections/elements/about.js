@@ -8,10 +8,11 @@ const About = () => {
       <h1 className="mb-16">
         Alex Perronnet
       </h1>
+      <h2 className="mb-16 flex items-center">
+        About
+        <h3 className="ml-2">(He/Him)</h3>
+      </h2>
       <div className="content-box">
-        <h3 className="mb-10">
-          (He/Him)
-        </h3>
         <p>
           Hello everyone, welcome to my personal website, I am Alex Perronnet, a french freelance <b>frontend developer</b> and <b>designer</b> junior. I am also an <b>open-source contributor</b> and a <b>content creator</b>.
         </p>

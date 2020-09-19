@@ -17,7 +17,7 @@ module.exports = {
       },
       pink: {
         background: "#FEDBF0",
-        default   : "#EA4AAA",
+        default   : "#D03592",
         foreground: "#6D224F"
       },
       gray: {
