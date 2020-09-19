@@ -29,7 +29,7 @@ const Skills = () => {
           Languages
         </h3>
         <p>
-          I speak <b>French</b> because it's my mother tongue (I come from New Caledonia), I also speak <b>English</b>, not perfectly but enough for work. I can say "<i>you are beautiful</i>" in at least 10 different languages, it's useless but it can help during a date...
+          I speak <b>Baguette</b> because it's my mother tongue (I come from New Caledonia), I also speak <b>English</b>, not perfectly but enough for work. I can say some love words in at least <b>10 different languages</b>, it's useless but it can help during a date...
         </p>
       </div>
     </section>

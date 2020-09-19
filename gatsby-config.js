@@ -55,7 +55,6 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-optimize-svgs",
     "gatsby-plugin-minify-html",
-    "gatsby-plugin-brotli",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-robots-txt",
     "gatsby-plugin-offline"

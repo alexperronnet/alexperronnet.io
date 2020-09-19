@@ -9,7 +9,7 @@ const Website = () => {
         This Website
       </h2>
       <div className="content-box">
-        This website is fully open source and under MIT license. It was built with {gatsby} and deployed on {netlify}.
+        This website is fully <b>open source</b> and under MIT license. It was built with {gatsby} and deployed on {netlify}.
       </div>
       <div className="content-box mt-16">
         <h3 className="mb-5">
