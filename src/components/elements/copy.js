@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import PropTypes from "prop-types"
-import { MdContentCopy, MdCheck } from "./icons"
-import CustomTooltip from "./tooltip"
+import { Tooltip } from "@components"
+import { MdContentCopy, MdCheck } from "@components/elements/icons"
 
 const Copy = ({ value, before, placeholder }) => {
   const handleClick = value => {
@@ -26,13 +26,13 @@ const Copy = ({ value, before, placeholder }) => {
 
   return (
     <div className="flex items-center">
-      <CustomTooltip
+      <Tooltip
         title     = "Copy to clipboard"
         placement = "top"
         arrow
       >
         <button
-          className = "focus:outline-none bg-gray-200 p-2 mr-4"
+          className = "focus:outline-none bg-gray-background p-2 mr-4"
           value     = {value}
           onClick   = {() => {
             handleClick(value)
@@ -41,9 +41,9 @@ const Copy = ({ value, before, placeholder }) => {
         >
           {isCopied ? <CheckIcon /> : <CopyIcon />}
         </button>
-      </CustomTooltip>
-      <div className="flex relative p-2 whitespace-pre overflow-x-auto bg-gray-200">
-        <div className="select-all inline-block text-sm text-gray-700">
+      </Tooltip>
+      <div className="flex relative p-2 whitespace-pre overflow-x-auto bg-gray-background">
+        <div className="select-all inline-block text-sm text-gray-foreground">
           <span className="select-none mr-1 font-bold">
             {before}
           </span>
@@ -56,14 +56,14 @@ const Copy = ({ value, before, placeholder }) => {
 
 const CopyIcon = () => (
   <MdContentCopy
-    className = "text-gray-700"
+    className = "text-gray-foreground"
     size      = {20}
   />
 )
 
 const CheckIcon = () => (
   <MdCheck
-    className = "text-green-500"
+    className = "text-blue"
     size      = {20}
   />
 )

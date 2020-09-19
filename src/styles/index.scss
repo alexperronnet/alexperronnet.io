@@ -2,60 +2,100 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-html,
-body {
+* {
   @apply m-0;
   @apply p-0;
+}
+
+html, body {
   @apply h-screen;
   @apply bg-white;
   @apply text-black;
 }
 
-#___gatsby,
-#gatsby-focus-wrapper {
+section {
+  @apply my-16;
+}
+
+#___gatsby, #gatsby-focus-wrapper {
   @apply h-full;
 }
 
 ::selection {
-  @apply bg-red-500;
+  @apply bg-pink;
   @apply text-white;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   @apply font-bold;
-  @apply leading-none;
 }
 
 h1 {
-  @apply text-4xl;
+  @apply text-3xl;
   &::after {
     content: " _";
     animation: blink ease 1s infinite;
   }
   @screen sm {
     &::before {
-      content: "$ cd / ";
-      @apply text-red-500;
+      content: "~ cd / ";
+      @apply text-blue;
     }
   }
 }
 
 h2 {
   @apply text-2xl;
-  @screen sm {
-    &::before {
-      content: "$ cd / ";
-      @apply text-red-500;
-    }
-  }
+  @apply border-b-2;
+  @apply border-gray-background;
 }
 
 h3 {
   @apply uppercase;
   @apply text-sm;
-  @apply text-red-700;
+  @apply text-blue;
+}
+
+#alert-top {
+  @apply py-4;
+  @apply bg-black;
+  @apply text-white;
+  @apply text-center;
+  @apply text-xs;
+}
+
+#footer {
+  @apply py-6;
+  @apply text-sm;
+  @apply bg-gray-background;
+  @apply text-gray-foreground;
+  & > div {
+    @apply flex;
+    @apply flex-col;
+    @apply items-center;
+    @apply justify-between;
+    @screen sm {
+      @apply flex-row;
+    }
+  }
+}
+
+.content-box {
+  @apply border-l-4;
+  @apply border-blue;
+  @apply pl-5;
+}
+
+.highlight-link {
+  @apply transition-all;
+  @apply duration-200;
+  @apply ease-in-out;
+  @apply inline-block;
+  box-shadow: inset 0 -2px 0 #EA4AAA;
+  &:hover {
+    box-shadow: inset 0 -30px 0 0 #EA4AAA;
+    @apply text-white;
+  }
 }
 
 @keyframes blink {

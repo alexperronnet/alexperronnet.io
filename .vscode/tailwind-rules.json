@@ -1,0 +1,44 @@
+{
+  "atDirectives": [
+    {
+      "name"       : "@tailwind",
+      "description": "N/A",
+      "references" : [
+        {
+          "name": "Tailwind Documentation",
+          "url" : "https://tailwindcss.com/docs/functions-and-directives#tailwind"
+        }
+      ]
+    },
+    {
+      "name"       : "@responsive",
+      "description": "N/A",
+      "references" : [
+        {
+          "name": "Tailwind Documentation",
+          "url" : "https://tailwindcss.com/docs/functions-and-directives#responsive"
+        }
+      ]
+    },
+    {
+      "name"       : "@screen",
+      "description": "N/A",
+      "references" : [
+        {
+          "name": "Tailwind Documentation",
+          "url" : "https://tailwindcss.com/docs/functions-and-directives#screen"
+        }
+      ]
+    },
+    {
+      "name"       : "@variants",
+      "description": "N/A",
+      "references" : [
+        {
+          "name": "Tailwind Documentation",
+          "url" : "https://tailwindcss.com/docs/functions-and-directives#variants"
+        }
+      ]
+    }
+  ]
+}

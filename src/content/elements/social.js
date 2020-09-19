@@ -6,7 +6,7 @@ import {
   SiBehance,
   SiDribbble,
   SiLinkedin
-} from "../components/icons"
+} from "@components/elements/icons"
 
 const social = [
   {

@@ -1,37 +1,27 @@
 const tailwindConfig = require("./tailwind.config")
-const website        = {
-  sitePath            : "/",
-  siteName            : "Alex Perronnet",
-  siteAuthor          : "@alexperronnet",
-  siteUrl             : "https://alexperronnet.io",
-  siteIcon            : "static/favicon.png",
-  siteGoogleTrackingId: "UA-156157580-2",
-  siteBackgroundColor : "#FFFFFF",
-  siteThemeColor      : "#FFFFFF",
-  siteDescription     : "I'm Alex Perronnet, a french freelance developer and designer. I'm also an open-source contributor and a content creator"
-}
+const websiteConfig  = require("./.config/website")
 
 module.exports = {
   siteMetadata: {
-    title      : website.siteName,
-    description: website.siteDescription,
-    author     : website.siteAuthor,
-    siteUrl    : website.siteUrl
+    title      : websiteConfig.name,
+    description: websiteConfig.description,
+    author     : websiteConfig.author,
+    siteUrl    : websiteConfig.url
   },
   plugins: [
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name              : website.siteName,
-        short_name        : website.siteName,
-        start_url         : website.sitePath,
-        background_color  : website.siteBackgroundColor,
-        theme_color       : website.siteThemeColor,
-        display           : "standalone",
-        cache_busting_mode: "none",
-        icon              : website.siteIcon,
+        name              : websiteConfig.name,
+        short_name        : websiteConfig.name,
+        start_url         : websiteConfig.path,
+        background_color  : tailwindConfig.theme.colors.white,
+        theme_color       : tailwindConfig.theme.colors.white,
+        display           : websiteConfig.manifestDisplay,
+        cache_busting_mode: websiteConfig.manifestCache,
+        icon              : websiteConfig.icon,
         icon_options      : {
-          purpose: "maskable"
+          purpose: websiteConfig.iconPurpose
         }
       }
     },
@@ -53,16 +43,18 @@ module.exports = {
     {
       resolve: "gatsby-plugin-canonical-urls",
       options: {
-        siteUrl: website.siteUrl
+        siteUrl: websiteConfig.url
       }
     },
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: website.siteGoogleTrackingId
+        trackingId: websiteConfig.googleTrackingId
       }
     },
     "gatsby-plugin-react-helmet",
+    "gatsby-plugin-optimize-svgs",
+    "gatsby-plugin-minify-html",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-robots-txt",
     "gatsby-plugin-offline"

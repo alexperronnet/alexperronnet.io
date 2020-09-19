@@ -1,23 +1,16 @@
 import React from "react"
-import Layout from "../components/layout"
-import About from "../sections/about"
-import Skills from "../sections/skills"
-import Languages from "../sections/languages"
-import Contact from "../sections/contact"
-import Website from "../sections/website"
-
-import Clock from "../components/clock"
+import { Wrapper, Clock } from "@components"
+import { About, Skills, Contact, Website } from "@sections"
 
 const Home = () => {
   return (
-    <Layout>
+    <Wrapper>
       <Clock />
       <About />
       <Skills />
-      <Languages />
       <Contact />
       <Website />
-    </Layout>
+    </Wrapper>
   )
 }
 

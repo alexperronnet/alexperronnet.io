@@ -1,7 +1,4 @@
 import {
-  FiClock,
-  FiCode,
-  FiGitBranch,
   FiArrowUpCircle
 } from "react-icons/fi"
 
@@ -21,9 +18,6 @@ import {
 } from "react-icons/si"
 
 export {
-  FiClock,
-  FiCode,
-  FiGitBranch,
   FiArrowUpCircle,
   MdContentCopy,
   MdCheck,

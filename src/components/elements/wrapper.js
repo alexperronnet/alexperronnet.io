@@ -1,14 +1,12 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Metas from "./metas"
-import Notice from "../sections/notice"
-import Footer from "../sections/footer"
+import { Metas, AlertTop, Footer } from "@components"
 
-const Layout = ({ children }) => {
+const Wrapper = ({ children }) => {
   return (
     <div className="wrapper">
       <Metas />
-      <Notice />
+      <AlertTop />
       <main
         className = "container"
         id        = "main"
@@ -21,8 +19,8 @@ const Layout = ({ children }) => {
   )
 }
 
-Layout.propTypes = {
+Wrapper.propTypes = {
   children: PropTypes.node.isRequired
 }
 
-export default Layout
+export default Wrapper
