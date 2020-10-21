@@ -24,7 +24,7 @@
     "gatsby-plugin-purgecss"        : "^5.0.0",
     "gatsby-plugin-react-helmet"    : "^3.3.11",
     "gatsby-plugin-robots-txt"      : "^1.5.2",
-    "gatsby-plugin-sass"            : "^2.3.13",
+    "gatsby-plugin-sass"            : "^2.3.20",
     "gatsby-plugin-sitemap"         : "^2.4.13",
     "node-sass"                     : "^4.14.1",
     "prop-types"                    : "^15.7.2",
