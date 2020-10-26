@@ -32,7 +32,7 @@
     "react-dom"                     : "^16.13.1",
     "react-helmet"                  : "^6.1.0",
     "react-icons"                   : "^3.11.0",
-    "typeface-roboto"               : "0.0.75"
+    "typeface-roboto"               : "1.1.13"
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
