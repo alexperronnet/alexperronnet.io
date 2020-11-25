@@ -1,5 +1,7 @@
 # [alexperronnet.io](https://alexperronnet.io)
 
+[V2 Available](https://github.com/alexperronnet/personal-website-v2)
+
 This repo contains the source for [alexperronnet.io](https://alexperronnet.io). It was built with [Gatsby](https://gatsbyjs.com) and deployed on [Netlify](https://netlify.com).
 
 ## Local development
